@@ -517,3 +517,34 @@ footer p {
 .pieza img.horizontal{
     max-width:1000px;
 }
+/* Botón PDF */
+
+.boton-pdf{
+
+    display:inline-block;
+
+    margin-top:10px;
+
+    padding:14px 26px;
+
+    border-radius:8px;
+
+    background:#5f94d6;
+
+    color:white;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+    transition:.2s;
+
+}
+
+.boton-pdf:hover{
+
+    background:#4b7fbd;
+
+    transform:translateY(-2px);
+
+}
