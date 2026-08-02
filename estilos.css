@@ -490,7 +490,28 @@ footer p {
 .pieza img.vertical{
     max-width:650px;
 }
+/* Corrección definitiva para imágenes e infografías */
 
+.contenido-estacion,
+.sala-piezas,
+.pieza {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.sala-piezas {
+    overflow: hidden;
+}
+
+.pieza img {
+    display: block;
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 24px auto;
+    object-fit: contain;
+    box-sizing: border-box;
+}
 /* Si posteriormente hay imágenes panorámicas */
 
 .pieza img.horizontal{
