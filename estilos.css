@@ -193,5 +193,130 @@ footer p {
 
     p {
         font-size: 1rem;
+        /* Estaciones de la exposición */
+
+.estacion {
+    position: relative;
+    overflow: hidden;
+}
+
+.encabezado-estacion {
+    max-width: 760px;
+    margin-bottom: 32px;
+}
+
+.pregunta-orientadora {
+    margin: 18px 0 0;
+    font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+    line-height: 1.4;
+    font-style: italic;
+    color: #9fc7ff;
+}
+
+.texto-curatorial {
+    max-width: 800px;
+    margin-bottom: 38px;
+    padding-left: 22px;
+    border-left: 3px solid #4f7fb8;
+}
+
+.texto-curatorial p:first-child {
+    margin-top: 0;
+}
+
+.texto-curatorial p:last-child {
+    margin-bottom: 0;
+}
+
+.sala-piezas {
+    margin-top: 35px;
+    padding: 28px;
+    background-color: rgba(4, 11, 21, 0.55);
+    border: 1px solid #2b405c;
+    border-radius: 16px;
+}
+
+.pieza {
+    margin: 0;
+    padding: 0;
+}
+
+.tipo-pieza {
+    margin: 0 0 8px;
+    font-size: 0.78rem;
+    font-weight: bold;
+    letter-spacing: 0.16rem;
+    color: #7eade8;
+}
+
+.pieza h3 {
+    margin: 0 0 22px;
+    font-size: 1.35rem;
+}
+
+.video-contenedor {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    background-color: #000000;
+    border-radius: 12px;
+}
+
+.video-contenedor iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+.pregunta-puente {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #2b405c;
+}
+
+.pregunta-puente p {
+    margin: 0 0 12px;
+    font-size: 0.98rem;
+    color: #9caec2;
+}
+
+.pregunta-puente a {
+    display: inline-block;
+    max-width: 760px;
+    font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+    line-height: 1.4;
+    font-weight: bold;
+    color: #dbeaff;
+    text-decoration: none;
+}
+
+.pregunta-puente a:hover {
+    color: #9fc7ff;
+}
+
+.pregunta-puente span {
+    display: inline-block;
+    margin-left: 8px;
+    transition: transform 0.2s ease;
+}
+
+.pregunta-puente a:hover span {
+    transform: translateX(6px);
+}
+
+@media (max-width: 760px) {
+    .texto-curatorial {
+        padding-left: 16px;
+    }
+
+    .sala-piezas {
+        padding: 18px;
+    }
+}
     }
 }
