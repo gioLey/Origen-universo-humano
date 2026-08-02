@@ -548,3 +548,90 @@ footer p {
     transform:translateY(-2px);
 
 }
+/* ===== CRÉDITOS ===== */
+
+.creditos{
+
+    margin-top:80px;
+
+    padding:60px 10%;
+
+    background:#05080d;
+
+    border-top:1px solid #293b53;
+
+    font-size:.90rem;
+
+    color:#b8c3cf;
+
+}
+
+.creditos h3{
+
+    margin-top:0;
+
+    margin-bottom:35px;
+
+    color:white;
+
+}
+
+.creditos-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:40px;
+
+    margin-bottom:45px;
+
+}
+
+.creditos h4{
+
+    margin-bottom:12px;
+
+    color:#9fc7ff;
+
+}
+
+.creditos ul{
+
+    padding-left:18px;
+
+    margin:0;
+
+}
+
+.creditos li{
+
+    margin-bottom:8px;
+
+}
+
+.creditos-enlaces{
+
+    padding-top:25px;
+
+    border-top:1px solid #293b53;
+
+    font-size:.82rem;
+
+}
+
+.creditos a{
+
+    color:#b8d8ff;
+
+    text-decoration:none;
+
+    word-break:break-all;
+
+}
+
+.creditos a:hover{
+
+    text-decoration:underline;
+
+}
