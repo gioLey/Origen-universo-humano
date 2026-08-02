@@ -449,3 +449,20 @@ footer p {
         gap: 5px;
     }
 }
+/* Reproductores de audio */
+
+.audio-contenedor {
+    width: 100%;
+    overflow: hidden;
+    background-color: #080e17;
+    border: 1px solid var(--linea);
+    border-radius: 10px;
+}
+
+.audio-contenedor iframe {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    border: 0;
+}
